@@ -47,7 +47,8 @@ The dataset contains the following columns:
 2. **Exploratory Data Analysis (EDA):** Conducted EDA to understand the distribution and correlation of variables with employee attrition.
 3. **Data Transformation:** Applied dummy encoding, standardization, dataset splitting, and used SMOTE for addressing class imbalance.
 4. **Modeling:** Utilized logistic regression for predicting employee turnover. Focused on optimizing the model to improve recall to minimize Type II errors.
-5. **Evaluation:** Compared model coefficients and evaluated model performance using metrics such as accuracy, recall, precision, and the ROC-AUC curve. 
+5. **Evaluation:** Compared model coefficients and evaluated model performance using metrics such as accuracy, recall, precision, and the ROC-AUC curve.
+6. **Application:** Established a protocol for applying the model to new data. New real-world data will be preprocessed to match the training data format.
 
 ## Results
 
