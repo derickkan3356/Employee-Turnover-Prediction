@@ -48,18 +48,16 @@ The dataset contains the following columns:
 3. **Data Transformation:** Applied dummy encoding, standardization, dataset splitting, and used SMOTE for addressing class imbalance.
 4. **Modeling:** Utilized logistic regression for predicting employee turnover. Focused on optimizing the model to improve recall to minimize Type II errors.
 5. **Evaluation:** Compared model coefficients and evaluated model performance using metrics such as accuracy, recall, precision, and the ROC-AUC curve.
-6. **Application:** Established a protocol for applying the model to new data. New real-world data will be preprocessed to match the training data format.
 
 ## Results
 
 Our model identifies several key factors that are highly correlated with employee attrition, ranked by their impact:
 
-1. Work-life imbalance
-2. Low performance rating
-3. Low job involvement
-4. Low percent salary hike
-5. Low job satisfaction
-6. Low environment satisfaction
+1. Educational level with doctor
+2. Single
+3. Belongs to sales department
+4. Belongs to R&D department
+5. Low Work Life Balance
 
 The logistic regression model, optimized for recall, showed promising results in predicting employee turnover, with a detailed analysis of the coefficients to understand the impact of various factors.
 
