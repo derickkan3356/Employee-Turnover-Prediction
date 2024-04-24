@@ -46,18 +46,17 @@ The dataset contains the following columns:
 1. **Data Cleaning:** Removed unnecessary columns and filled missing values with the mean for numeric columns.
 2. **Exploratory Data Analysis (EDA):** Conducted EDA to understand the distribution and correlation of variables with employee attrition.
 3. **Data Transformation:** Applied dummy encoding, standardization, dataset splitting, and used SMOTE for addressing class imbalance.
-4. **Modeling:** Utilized logistic regression for predicting employee turnover. Focused on optimizing the model to improve recall to minimize Type II errors.
-5. **Evaluation:** Compared model coefficients and evaluated model performance using metrics such as accuracy, recall, precision, and the ROC-AUC curve.
+4. **Modeling:** Utilized logistic regression for predicting employee turnover. Use cross-validation to fine-tune model by optimizing recall in order to minimize Type II errors.
+5. **Evaluation:** Compared model coefficients and evaluated model performance using metrics such as accuracy, recall, precision, and the precision-recall curve.
 
 ## Results
 
-Our model identifies several key factors that are highly correlated with employee attrition, ranked by their impact:
+Our model identifies several key factors that are highly contributed to employee retention, ranked by their impact:
 
-1. Educational level with doctor
-2. Single
-3. Belongs to sales department
-4. Belongs to R&D department
-5. Low Work Life Balance
+1. Work Life Balance
+2. Belongs to sales and research department
+3. High performance rating
+4. High percent salary sike
 
 The logistic regression model, optimized for recall, showed promising results in predicting employee turnover, with a detailed analysis of the coefficients to understand the impact of various factors.
 
